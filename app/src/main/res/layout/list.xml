@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="#80DEEA">
+
+
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:id="@+id/imageView"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#311b92"
+        android:textSize="22sp"
+        android:id="@+id/name"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:background="#80DEEA"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textColor="#311b92"
+        android:textSize="22sp"
+        android:id="@+id/designation"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:background="#80DEEA"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textColor="#311b92"
+        android:textSize="20sp"
+        android:id="@+id/qualification"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:background="#80DEEA"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+</ScrollView>

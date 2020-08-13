@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vvce Staff Details</string>
+    <string name="tab_text_1">MECH</string>
+    <string name="tab_text_2">CSE</string>
+    <string name="tab_text_3">EEE</string>
+    <string name="tab_text_4">CIVIL</string>
+
+
+</resources>
